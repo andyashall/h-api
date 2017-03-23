@@ -2,6 +2,8 @@
 
 Replace WAI with [Yesod](https://github.com/yesodweb/yesod)
 
+- [Great Haskell docs](http://dev.stephendiehl.com/hask/)
+
 - [Warp](https://hackage.haskell.org/package/wai) 
 - [Warp info](http://www.aosabook.org/en/posa/warp.html)
 - [Yesod](http://www.yesodweb.com/book)
