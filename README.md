@@ -1,6 +1,6 @@
 # Haskell Server
 
-Replace WAI with [Yesod](https://github.com/yesodweb/yesod)
+!Replace WAI with [Yesod](https://github.com/yesodweb/yesod)
 
 - [Great Haskell docs](http://dev.stephendiehl.com/hask/)
 
@@ -13,8 +13,8 @@ Replace WAI with [Yesod](https://github.com/yesodweb/yesod)
 
 ## Todo
 
-- Build a simple [todo](https://robots.thoughtbot.com/a-rest-api-with-haskell-and-snap) add in webpack / react
-- Create api calls using axios to test haskell server 
-- Save these to mongodb?
-
-- Build a simple page e.g [Redux example](http://redux.js.org/docs/advanced/AsyncActions.html?_sm_au_=ifHV710HZtJWr0SP) that returns an array of objects stored in the server
+- Replace WAI with Yesod
+- Add get route for /api/getposts and send arts of projs based on req.query.type
+- Add get routes for /api/getarticle and sent the art that url matches req.query.arturl 
+- Add get routes for /api/getproject and sent the proj that url matches req.query.projurl 
+- Add post route for /api/signup and add req.body to mongoDB

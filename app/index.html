@@ -22,7 +22,11 @@
 //# sourceMappingURL=axios.min.map
 
 	const getPosts = () => {
-		axios.get('/json')
+		axios.get('/articles', {
+			params: {
+				type: "hello"
+			}
+		})
 		.then((res) => {
 			console.log(res.data)
 			let name = document.getElementById("name"),
