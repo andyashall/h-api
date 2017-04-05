@@ -1,6 +1,7 @@
 dist
 dist-*
 app/app.html
+app/index.html
 cabal-dev
 *.o
 *.hi
